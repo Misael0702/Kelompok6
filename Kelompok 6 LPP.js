@@ -4,7 +4,7 @@ function main() {
 
     lanjut = "Y";
     while (lanjut == "Y" || lanjut == "y") {
-        window.alert("Silahkan masukkan nama barang anda!");
+        window.alert("Silahkan masukkan nama barang anda!");   #Windownyadihapus
         barang1 = window.prompt('Enter a value for barang1');
         barang2 = window.prompt('Enter a value for barang2');
         barang3 = window.prompt('Enter a value for barang3');
