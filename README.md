@@ -105,7 +105,7 @@ The program displays:
 
 The algorithm used in the program is described in:
 
-`pseudocode.txt` kelompok 6 pseudocode.txt
+`pseudocode.txt` 
 
 ---
 
@@ -115,7 +115,7 @@ The flowchart is created using Flowgorithm.
 
 File:
 
-`flowchart.fprg`
+`flowchart.fprg` (kelompok 6 final.fprg)
 
 ---
 
