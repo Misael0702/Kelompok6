@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="percobaan 2"/>
+        <attribute name="authors" value="Misael"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-21 08:30:09 PM"/>
+        <attribute name="created" value="TWlzYWVsO0xBUFRPUC1PUTRHMlQxUDsyMDI2LTA5LTE3OzAyOjUxOjUxIFBNOzI5NDM="/>
+        <attribute name="edited" value="TWlzYWVsO0xBUFRPUC1PUTRHMlQxUDsyMDI2LTA5LTE3OzAzOjIyOjE5IFBNOzE7TWlzYWVsO0xBUFRPUC1PUTRHMlQxUDsyMDI2LTA5LTA3OzEyOjE5OjQ3IFBNO0tlbG9tcG9rIDYgTFBQLmZwcmc7Nzc4OQ=="/>
+        <attribute name="edited" value="TWlzYWVsO0xBUFRPUC1PUTRHMlQxUDsyMDI2LTA5LTIxOzA4OjMwOjA5IFBNOzM7MzA1NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="namabarang, lanjut" type="String" array="False" size=""/>
+            <declare name="harga, jumlah, totalharga" type="Integer" array="False" size=""/>
+            <assign variable="totalharga" expression="0"/>
+            <assign variable="Lanjut" expression="&quot;Y&quot;"/>
+            <while expression="lanjut=&quot;Y&quot; or lanjut=&quot;y&quot;">
+                <output expression="&quot;Silahkan masukkan nama barang!&quot;" newline="True"/>
+                <input variable="namabarang"/>
+                <output expression="&quot;Silahkan masukkan harga barang anda!&quot;" newline="True"/>
+                <input variable="harga"/>
+                <output expression="&quot;Silahkan masukkan jumlah barang anda!&quot;" newline="True"/>
+                <input variable="jumlah"/>
+                <assign variable="totalharga" expression="totalharga + harga*jumlah"/>
+                <output expression="&quot;apakah anda ingin menambah barang lagi? (Y/N) &quot;" newline="True"/>
+                <input variable="Lanjut"/>
+            </while>
+            <output expression="&quot;Total belanja anda sebelum diskon adalah &quot; &amp; totalharga" newline="True"/>
+            <if expression="totalharga&lt;50000">
+                <then>
+                    <output expression="&quot;Anda tidak mendapat diskon&quot;" newline="True"/>
+                    <output expression="&quot;Nominal belanja anda adalah &quot; &amp; totalharga" newline="True"/>
+                </then>
+                <else>
+                    <if expression="totalharga&gt;=50000 and totalharga&lt;=99000">
+                        <then>
+                            <output expression="&quot;Anda mendapat diskon 5%&quot;" newline="True"/>
+                            <assign variable="totalharga" expression="totalharga*0.95"/>
+                            <output expression="&quot;Nominal anda setelah diskon adalah &quot; &amp; totalharga" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="totalharga&gt;=100000">
+                                <then>
+                                    <output expression="&quot;Anda mendapat diskon 10%&quot;" newline="True"/>
+                                    <assign variable="totalharga" expression="totalharga*0.90"/>
+                                    <output expression="&quot;Nominal belanja anda setelah diskon adalah &quot; &amp; totalharga" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;Error&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
