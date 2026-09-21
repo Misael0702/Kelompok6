@@ -52,26 +52,43 @@ The program receives:
 
 ## 6. Process
 
+Shopping Total & Discount Calculator (Flowgorithm)
+
+A simple Flowgorithm program that lets a user repeatedly enter items (name, price, quantity), calculates the total purchase amount, and applies a tiered discount based on the total.
+
+How It Works
 1. Setup
-The program declares variables: namabarang (item name) and lanjut (continue Y/N) as Strings, and harga (price), jumlah (quantity), totalharga (total price) as Integers. It initializes totalharga to 0 and lanjut to "Y".
 
-2. Input loop (repeats while the user wants to keep adding items)
-As long as lanjut equals "Y" or "y", the program:
+The program declares the following variables:
 
-Asks the user to enter an item name → stores it in namabarang
-Asks the user to enter the item's price → stores it in harga
-Asks the user to enter the quantity → stores it in jumlah
-Adds harga * jumlah to totalharga (running total)
-Asks "do you want to add another item? (Y/N)" → stores the answer in lanjut
+namabarang (String) — item name
+lanjut (String) — whether the user wants to continue adding items (Y/N)
+harga (Integer) — item price
+jumlah (Integer) — item quantity
+totalharga (Integer) — running total price
 
-The loop keeps repeating this input sequence until the user answers anything other than "Y"/"y".
+It initializes totalharga to 0 and lanjut to "Y".
 
-3. Discount decision (after the loop ends)
-The program compares totalharga against price thresholds. If it is:
+2. Input Loop
 
-Less than 50,000 → the program prints "You get no discount" along with the total amount
-Between 50,000 and 99,000 (inclusive) → the program prints "You get a 5% discount", recalculates totalharga as totalharga * 0.95, and prints the discounted total
-100,000 or more → the program prints "You get a 10% discount", recalculates totalharga as totalharga * 0.90, and prints the discounted total
+While lanjut equals "Y" or "y", the program repeats the following:
+
+Prompts "Silahkan masukkan nama barang!" → stores input in namabarang
+Prompts "Silahkan masukkan harga barang anda!" → stores input in harga
+Prompts "Silahkan masukkan jumlah barang anda!" → stores input in jumlah
+Adds harga * jumlah to totalharga
+Prompts "apakah anda ingin menambah barang lagi? (Y/N)" → stores input in lanjut
+
+The loop keeps repeating until the user enters anything other than Y/y.
+
+3. Discount Logic
+
+After the loop ends, the program compares totalharga against price thresholds:
+
+Less than 50,000 → prints "Anda tidak mendapat diskon" along with the total amount (no discount applied)
+Between 50,000 and 99,000 (inclusive) → prints "Anda mendapat diskon 5%", recalculates totalharga as totalharga * 0.95, and prints the discounted total
+100,000 or more → prints "Anda mendapat diskon 10%", recalculates totalharga as totalharga * 0.90, and prints the discounted total
+(Fallback) → if none of the above conditions match, prints "Error" (this branch should never actually be reached, since the three conditions above cover every possible value)
 ---
 
 ## 7. Output
