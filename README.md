@@ -133,4 +133,4 @@ The program is tested using several test scenarios.
 
 Testing documentation:
 
-`test-cases.md`
+[test-cases.md](test-cases.md)
