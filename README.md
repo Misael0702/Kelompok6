@@ -115,7 +115,7 @@ The flowchart is created using Flowgorithm.
 
 File:
 
-`flowchart.fprg` (kelompok 6 final.fprg)
+`flowchart.fprg` 
 
 ---
 
