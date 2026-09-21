@@ -105,7 +105,7 @@ The program displays:
 
 The algorithm used in the program is described in:
 
-`pseudocode.txt` (kelompok 6 psedocode.txt)
+`pseudocode.txt` (kelompok%206%20psedocode.txt)
 
 ---
 
@@ -115,7 +115,7 @@ The flowchart is created using Flowgorithm.
 
 File:
 
-`flowchart.fprg` 
+`flowchart.fprg` (kelompok%206%20final.fprg)
 
 ---
 
@@ -123,7 +123,7 @@ File:
 
 The JavaScript implementation of the program is available in:
 
-`program.js` (Kelompok 6 Javascript.js)
+`program.js` (Kelompok%206%20Javascript.js)
 
 ---
 
