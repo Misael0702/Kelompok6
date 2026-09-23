@@ -134,3 +134,6 @@ Testing documentation:
 
 [test-cases.md](test-cases.md)
 [Case 1.mp4](https://github.com/Misael0702/Kelompok6/blob/cf7c62a26eda8cb8fed5bbfe7879927109f7ffad/Case%201.mp4)
+[Case 2.mp4](https://github.com/Misael0702/Kelompok6/blob/cf7c62a26eda8cb8fed5bbfe7879927109f7ffad/Case%202.mp4)
+[Case 3.mp4](https://github.com/Misael0702/Kelompok6/blob/cf7c62a26eda8cb8fed5bbfe7879927109f7ffad/Case%203.mp4)
+[Case 4.mp4](https://github.com/Misael0702/Kelompok6/blob/cf7c62a26eda8cb8fed5bbfe7879927109f7ffad/Case%204.mp4)
