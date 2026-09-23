@@ -123,7 +123,6 @@ File:
 
 The JavaScript implementation of the program is available in:
 
-[program.js](Kelompok%206%20Javascript.js)
 
 ---
 
