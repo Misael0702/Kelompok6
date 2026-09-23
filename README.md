@@ -123,7 +123,7 @@ File:
 
 The JavaScript implementation of the program is available in:
 
-[kelompok 6 javascript.js] (Kelompok%206%20Javascript.js) 
+[kelompok 6 javascript.js] (https://github.com/Misael0702/Kelompok6/blob/cab890dbd86f5c2e5ad1b174984cd0b125d12aad/Kelompok%206%20Javascript.js) 
 ---
 
 ## 11. Testing
