@@ -123,7 +123,7 @@ File:
 
 The JavaScript implementation of the program is available in:
 
-
+[kelompok 6 javascript.js] (Kelompok%206%20Javascript.js) 
 ---
 
 ## 11. Testing
