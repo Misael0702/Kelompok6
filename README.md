@@ -133,3 +133,4 @@ The program is tested using several test scenarios.
 Testing documentation:
 
 [test-cases.md](test-cases.md)
+[Case 1.mp4](https://github.com/Misael0702/Kelompok6/blob/cf7c62a26eda8cb8fed5bbfe7879927109f7ffad/Case%201.mp4)
