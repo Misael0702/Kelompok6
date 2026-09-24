@@ -89,7 +89,6 @@ After the loop ends, the program compares totalharga against price thresholds:
 - Between 50,000 and 99,000 (inclusive) → the program prints "You get a 5% discount", recalculates `totalharga` as `totalharga * 0.95`, and prints the discounted total
 - 100,000 or more → the program prints "You get a 10% discount", recalculates `totalharga` as `totalharga * 0.90`, and prints the discounted total
 - (Fallback) → if none of the above conditions somehow match, it prints "Error"
----
 
 ## 7. Output
 
