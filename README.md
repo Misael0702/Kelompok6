@@ -51,24 +51,6 @@ The program receives:
 ---
 
 ## 6. Process
-
-Shopping Total & Discount Calculator (Flowgorithm)
-
-A simple Flowgorithm program that lets a user repeatedly enter items (name, price, quantity), calculates the total purchase amount, and applies a tiered discount based on the total.
-
-How It Works
-1. Setup
-
-The program declares the following variables:
-
-namabarang (String) — item name
-lanjut (String) — whether the user wants to continue adding items (Y/N)
-harga (Integer) — item price
-jumlah (Integer) — item quantity
-totalharga (Integer) — running total price
-
-It initializes totalharga to 0 and lanjut to "Y".
-
 2. Input Loop
 
 While lanjut equals "Y" or "y", the program repeats the following:
@@ -88,7 +70,6 @@ After the loop ends, the program compares totalharga against price thresholds:
 - Less than 50,000 → the program prints "You get no discount" along with the total amount
 - Between 50,000 and 99,000 (inclusive) → the program prints "You get a 5% discount", recalculates `totalharga` as `totalharga * 0.95`, and prints the discounted total
 - 100,000 or more → the program prints "You get a 10% discount", recalculates `totalharga` as `totalharga * 0.90`, and prints the discounted total
-- (Fallback) → if none of the above conditions somehow match, it prints "Error"
 
 ## 7. Output
 
