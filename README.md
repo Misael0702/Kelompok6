@@ -123,7 +123,7 @@ File:
 
 The JavaScript implementation of the program is available in:
 
-[Javascript.js] (https://github.com/Misael0702/Kelompok6/blob/011252b5b9ea6bec91ded12d8c345b751a43d942/Javascript.js) 
+[Javascript.js] (Javascript.js) 
 ---
 
 ## 11. Testing
