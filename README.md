@@ -51,7 +51,7 @@ The program receives:
 ---
 
 ## 6. Process
-2. Input Loop
+1. Input Loop
 
 While lanjut equals "Y" or "y", the program repeats the following:
 
@@ -63,7 +63,7 @@ Prompts "apakah anda ingin menambah barang lagi? (Y/N)" → stores input in lanj
 
 The loop keeps repeating until the user enters anything other than Y/y.
 
-3. Discount Logic
+2. Discount Logic
 
 After the loop ends, the program compares totalharga against price thresholds:
 
