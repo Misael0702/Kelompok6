@@ -1,0 +1,36 @@
+Function Main
+    Declare String namabarang, lanjut
+    Declare Integer harga, jumlah, totalharga
+
+    Assign totalharga = 0
+    Assign Lanjut = "Y"
+    While lanjut="Y" or lanjut="y"
+        Output "Silahkan masukkan nama barang!"
+        Input namabarang
+        Output "Silahkan masukkan harga barang anda!"
+        Input harga
+        Output "Silahkan masukkan jumlah barang anda!"
+        Input jumlah
+        Assign totalharga = totalharga + harga*jumlah
+        Output "apakah anda ingin menambah barang lagi? (Y/N) "
+        Input Lanjut
+    End
+    If totalharga<50000
+        Output "Anda tidak mendapat diskon"
+        Output "Nominal belanja anda adalah " & totalharga
+    Else
+        If totalharga>=50000 and totalharga<=99000
+            Output "Anda mendapat diskon 5%"
+            Assign totalharga = totalharga*0.95
+            Output "Nominal anda setelah diskon adalah " & totalharga
+        Else
+            If totalharga>=100000
+                Output "Anda mendapat diskon 10%"
+                Assign totalharga = totalharga*0.90
+                Output "Nominal belanja anda setelah diskon adalah " & totalharga
+            Else
+                Output "Error"
+            End
+        End
+    End
+End
